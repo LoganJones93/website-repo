@@ -1,11 +1,14 @@
 .jumbotron {
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
-  background-color: $jumbotron-bg;
-  @include border-radius($border-radius-lg);
+  background-image: url(../../images/coast.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-top: 90px;
+  @include border-radius(0);
 
   @include media-breakpoint-up(sm) {
-    padding: ($jumbotron-padding * 2) $jumbotron-padding;
+    padding: $jumbotron-padding;
   }
 }
 
