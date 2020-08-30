@@ -1,30 +1,129 @@
-<html> 
+
+<!doctype html>
 <html lang="en">
-    <head>
-        <script type="text/javascript" src="script.js"></script>
-        <!-- <script type="text/javascript"> BigBepis("divID") </script> -->
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Proof of concept for HTML/CCS practice">
+    <meta name="author" content="Logan Jones">
+    <!--link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"-->
 
-        <title>Logan website</title>
-    </head>
+    <title>Play This Jank</title>
 
-    <body>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
 
-        <h1>ya mans out here</h1>
-        <h2>fr hanging <strong>big mode</strong></h2>
-        <ul>
-            <li class="red underline">big chill</li>
-            <li>small chill</li>
-            <li><em>hella</em> chill</li>
-            <ol>
-                <li>sweg</li>
-                <li>swag</li>
-            </ol>
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!--link href="starter-template.css" rel="stylesheet"-->
+  </head>
+
+  <body style="background-color: slategray;">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="nav-link" href="index.html"><img src="logo.png" alt="PTJ"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <!--li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li-->
+          <li class="nav-item">
+            <a class="nav-link" href="#">View Jank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Submit Jank</a>
+          </li>
+          <!--li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li-->
+          <!--li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Examples</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Dropdown 1</a>
+              <a class="dropdown-item" href="#">Dropdown 2</a>
+              <a class="dropdown-item" href="#">Dropdown 3</a>
+            </div>
+          </li-->
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-        <div name="divID"> chyaaaaa</div>
+    <main role="main" class="container">
 
-    </body>
+      <section class="jumbotron text-center" style="border-style: solid;">
+        <div class="container">
+          <h1 class="jumbotron-heading">PLAY THIS JANK</h1>
+          <p>A repository of some of the most absurd builds imaginable in Pathfinder 1st Edition. A collaborative resource curated from user submissions.</p>
+          <h4>How does it work?</h2>
+          <p>Submit your build with a title, a description, a picture, and rate it according to 6 key attributes. Your entry will live amongst others</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">View Jank</a>
+            <a href="#" class="btn btn-secondary my-2">Submit Jank</a>
+          </p>
+        </div>
+      </section>
 
+      <div class="album py-4 bg-light" style="border-style: solid;">
+        <div class="container">
+          <h3 class="text-center">Sample Builds</h3>
+          <div class="row">
+            
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="doc-ock.png" alt="Doctor Octopus">
+                <div class="card-body">
+                  <h5>Doctor Octopus</h5>
+                  <p class="card-text">He's an 8 limbed master of dishonorable combat, utilizing sneak attacks and pocket sand to deadly effect.</p>
+                  <div style="text-align: right;">
+                    <small style="color: gray;">Alchemist</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="hand.png" alt="The Man and The Hand">
+                <div class="card-body">
+                  <h5>The Man and The Hand</h5>
+                  <p class="card-text">Riding your own left hand into battle isn't for everybody, but it's an all right situation for him.</p>
+                  <div style="text-align: right;">
+                    <small style="color: gray;">Fighter</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="trogdor.png" alt="Mighty Morphing Power Rager" style="border-style: groove">
+                <div class="card-body">
+                  <h5>Mighty Morphing Power Rager</h5>
+                  <p class="card-text">You ever been so mad that you transform into a 20 foot creature from the cretaceous era? She has.</p>
+                  <div style="text-align: right;">
+                    <small style="color: gray;">Barbarian</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <!--script src="./assets/js/vendor/popper.min.js"></script-->
+    <script src="./dist/js/bootstrap.min.js"></script>.
+  </body>
 </html>
